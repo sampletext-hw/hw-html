@@ -1,0 +1,39 @@
+@media (max-width: 500px) {
+    table {
+        display: inline-block;
+    }
+
+    tr, thead {
+        float: left;
+    }
+
+    td {
+        padding: 10px;
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+    }
+}
+
+table {
+    border-width: 1px;
+    border-color: #dedede;
+    border-style: solid;
+    border-collapse: collapse;
+    width: 80%;
+    margin: 10% auto auto;
+}
+
+thead {
+    background: black;
+    color: white;
+    text-align: left;
+}
+
+.first {
+    background: #c8c8c8;
+}
+
+.second {
+    background: #f0f0f0;
+}

@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+section {
+    max-width: 70vw;
+    margin: 10vh auto;
+}
+
+li {
+    display: flex;
+    flex-grow: 1;
+    margin: 10px 5px;
+}
+
+.img-container {
+    background: white;
+    border: 5px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 0 0 10px black;
+    border-radius: 10px;
+}
+
+img {
+    margin: 10px;
+}

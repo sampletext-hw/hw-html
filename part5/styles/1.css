@@ -1,0 +1,29 @@
+.mq-width:after {
+    content: 'Viewport width is larger than 600px';
+}
+
+.mq-height:after {
+    content: 'Viewport height is larger than 600px';
+}
+
+.mq-aspect-ratio:after {
+    content: 'Aspect Ratio is larger than 8/5';
+}
+
+@media screen and (max-width: 600px) {
+    .mq-width:after {
+        content: '';
+    }
+}
+
+@media screen and (max-height: 600px) {
+    .mq-height:after {
+        content: '';
+    }
+}
+
+@media screen and (max-aspect-ratio: 8/5) {
+    .mq-aspect-ratio:after {
+        content: '';
+    }
+}
